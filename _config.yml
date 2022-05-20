@@ -1,7 +1,7 @@
 title: Warung Kopinank
 email: lovely.ariesan@gmail.com
 description: Warung Kopi Terbaik di Gegesik
-baseurl: ""
+baseurl: "/kopinank"
 url: "https://ariesan.github.io/kopinank"
 permalink: /:categories/:title:output_ext
 
