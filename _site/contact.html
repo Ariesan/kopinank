@@ -6,11 +6,27 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
-    <title>{{ page.title}}</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="/assets/style.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700" media="all">
-    {% feed_meta %}
-    {% seo %}
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Warung Kopinank" />
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Contact | Warung Kopinank</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Contact" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Warung Kopi Terbaik di Gegesik" />
+<meta property="og:description" content="Warung Kopi Terbaik di Gegesik" />
+<link rel="canonical" href="http://localhost:4000/contact.html" />
+<meta property="og:url" content="http://localhost:4000/contact.html" />
+<meta property="og:site_name" content="Warung Kopinank" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Contact" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Warung Kopi Terbaik di Gegesik","headline":"Contact","url":"http://localhost:4000/contact.html"}</script>
+<!-- End Jekyll SEO tag -->
+
   </head>
   <body>
     <header>
@@ -28,7 +44,31 @@
     
     <div class="content">
 
-        {{ content }}
+        <div class="container">
+  <h2 class="spacing">Hubungi <strong>KOPINANK</h2>
+
+  <div class="blog-posts">
+    <form class="row g-2" action="https://formspree.io/f/mjvljqan" method="POST">
+      <input type="text" id="name" name="user_name" placeholder="Masukan nama kamu" />
+      <input type="email" id="mail" name="user_mail" placeholder="Email yang valid" />
+      <textarea id="msg" style="height: 150px" name="user_message" placeholder="Tulis pesan yang ingin di sampaikan"></textarea>
+      <button class="btn btn-dark" type="submit" style="margin-bottom: 30px;">KIRIM</button>
+      <input type="hidden" name="_next" value="/thank-you" />
+
+      <!-- Ubtuk taruh email lain, as in bcc-->
+      <input
+        type="hidden"
+        name="_subject"
+        value="New submission from contact form"
+      />
+      <input type="hidden" name="_cc" value="email-lain@email.com" />
+    </form>
+  </div>
+</div>
+
+
+
+
 
     </div>
     <footer class="footer">
