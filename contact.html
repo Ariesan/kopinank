@@ -1,0 +1,29 @@
+---
+layout: default
+title: Contact
+---
+
+<div class="container">
+  <h2 class="spacing">Hubungi <strong>KOPINANK</h2>
+
+  <div class="blog-posts">
+    <form class="row g-2" action="https://formspree.io/f/mjvljqan" method="POST">
+      <input type="text" id="name" name="user_name" placeholder="Masukan nama kamu" />
+      <input type="email" id="mail" name="user_mail" placeholder="Email yang valid" />
+      <textarea id="msg" style="height: 150px" name="user_message" placeholder="Tulis pesan yang ingin di sampaikan"></textarea>
+      <button class="btn btn-dark" type="submit" style="margin-bottom: 30px;">KIRIM</button>
+      <input type="hidden" name="_next" value="/thank-you" />
+
+      <!-- Ubtuk taruh email lain, as in bcc-->
+      <input
+        type="hidden"
+        name="_subject"
+        value="New submission from contact form"
+      />
+      <input type="hidden" name="_cc" value="email-lain@email.com" />
+    </form>
+  </div>
+</div>
+
+
+
