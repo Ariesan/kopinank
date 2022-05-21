@@ -4,7 +4,7 @@ title: Sejarah Cafe
 categories: informasi
 ---
 
-![Cafe](/images/bg-2.jpg)
+![Cafe]({{site.baseurl}}/images/bg-2.jpg)
 
 Istilah kata cofe berasal dari bahasa perancis yang berarti kopi. Orang
 perancis menyebut kedai kopi dengan istilah cafe. Perancis menjadi salah satu

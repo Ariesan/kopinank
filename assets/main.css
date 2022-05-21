@@ -1,13 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
   font-family: "Source Sans Pro", sans-serif;
   padding: 0;
   margin: 0;
-  font-size: 20px;
+  font-size: 2vw;
   background-image: linear-gradient(to right top, #51312e, #593830, #613f33, #684635, #6f4e37);
 }
 
 p {
   line-height: 1.6em;
+  font-size: 2vw;
 }
 
 a {
@@ -23,15 +29,16 @@ h2 {
 
 h1 {
   font-weight: normal;
+  font-size: 3rem;
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 2.5rem;
   text-align: center;
 }
 
 h3 {
-  font-size: 1.8em;
+  font-size: 1.9em;
   margin: 15px 0;
 }
 
@@ -64,10 +71,23 @@ footer {
 section.hero {
   color: #fff;
   /* darken bg image*/
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/bg-1.jpg');
-  background-size: cover;
-  
+  /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('{{ site.baseurl }}/images/bg-1.jpg'); */
+  /* background-image: linear-gradient(to left top, #51312e, #593830, #613f33, #684635, #6f4e37); */
+  height: 100vh;
+	background: linear-gradient(-45deg, rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url(https://picsum.photos/id/1060/536/354?blur=2) center center / cover no-repeat;
 }
+h1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font : normal 600 5vw 'Open Sans', sans-serif;
+	text-align: center;
+	white-space: nowrap;
+}
+
 
 p.post-hero {
   width: 80%;
@@ -117,7 +137,7 @@ section.hero {
 }
 
 p.sub-text {
-  font-size: 20px;
+  font-size: 3.5vw;
   text-align: center;
   line-height: 28px;
 }
