@@ -26,10 +26,10 @@ h2 {
   margin: 0;
 }
 
-h1 {
+/* h1 {
   font-weight: normal;
   font-size: 2.1rem;
-}
+} */
 
 h2 {
   font-size: 2rem;
@@ -91,7 +91,7 @@ h1 {
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	color: #fff;
-	font : normal 600 3rem 'Open Sans', sans-serif;
+	font : normal 600 2.5rem 'Open Sans', sans-serif;
 	text-align: center;
 	white-space: nowrap;
 }
@@ -123,7 +123,7 @@ nav.main-nav ul {
 
 @media only screen and (max-width: 365px) {
   nav.main-nav ul {
-    float: none;
+    float: right;
   }
 }
 
