@@ -6,14 +6,13 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
   padding: 0;
-  margin: 0;
-  font-size: 2vw;
+  margin: 0;  
   background-image: linear-gradient(to right top, #51312e, #593830, #613f33, #684635, #6f4e37);
 }
 
 p {
   line-height: 1.6em;
-  font-size: 2.5vw;
+  font-size: 1rem;
 }
 
 a {
@@ -29,16 +28,16 @@ h2 {
 
 h1 {
   font-weight: normal;
-  font-size: 3rem;
+  font-size: 2.3rem;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
 }
 
 h3 {
-  font-size: 1.9em;
+  font-size: 2rem;
   margin: 15px 0;
 }
 
@@ -46,6 +45,15 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 7px;
+}
+
+/* footer */
+.hero {
+  /*background: #1d1d1d;*/
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 1em 0;
 }
 
 div.container,
@@ -83,7 +91,7 @@ h1 {
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	color: #fff;
-	font : normal 600 5vw 'Open Sans', sans-serif;
+	font : normal 600 3rem 'Open Sans', sans-serif;
 	text-align: center;
 	white-space: nowrap;
 }
@@ -137,7 +145,7 @@ section.hero {
 }
 
 p.sub-text {
-  font-size: 3.5vw;
+  font-size: 1.7rem;
   text-align: center;
   line-height: 28px;
 }
@@ -249,7 +257,7 @@ input[type="submit"] {
   background: #1d1d1d;
   color: #fff;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
   padding: 1em 0;
 }
 .footer a {
